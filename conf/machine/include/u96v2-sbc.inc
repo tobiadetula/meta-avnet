@@ -21,7 +21,7 @@ PMU_FIRMWARE_IMAGE_NAME ?= "pmu-firmware-zynqmp-pmu"
 PMU_FIRMWARE_DEPLOY_DIR ?= "${TOPDIR}/pmutmp/deploy/images/zynqmp-pmu"
 
 EXTRA_IMAGEDEPENDS += " \
-		arm-trusted-firmware \
+		trusted-firmware-a \
 		virtual/bootloader \
 		u-boot-xlnx-scr \
 		virtual/fsbl \
